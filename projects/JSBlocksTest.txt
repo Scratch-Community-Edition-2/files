@@ -1,0 +1,13 @@
+<span class="loop block" onclick="highlightBlock()" style="background-color: rgb(85, 49, 245); top: 78px; left: 493.5px;">
+<span class="dragpoint" onclick="dragBlock()" style="">Drag</span>
+<span style="display: block; text-align: center">Run on <select><option>start</option><option>call</option></select></span>
+<hr>
+Script <input value="code1"><br>
+Speed: <input class="number" value="100"> frames<br>
+<span class="binput"><span class="command" cmd="scene.insertAdjacentHTML('beforeend','&lt;span class=&quot;obj&quot; id=&quot;___&quot; style=&quot;color: ___; font-family: ___; font-size: ___; left: ___; top: ___&quot;&gt;___&lt;/span&gt;')" style="background-color: #c22323">create text object<br>name: <input value="text1"><br>color: <input value="#00e66f" type="color"><br>font: <select><option>monospace</option><option>arial</option><option>times</option></select><br>size: <input value="20px"><br>x: <input value="0" class="number"> y: <input value="0" class="number"><br>text: <textarea>First time trying JSBlocks Hopefully I'm doing this right..</textarea><br><span class="adddel" onclick="rmvCmd()">×</span></span><span class="command" cmd="scene.insertAdjacentHTML('beforeend','&lt;button class=&quot;obj&quot; id=&quot;___&quot; style=&quot;left: ___; top: ___&quot; onclick=&quot;___&quot;&gt;___&lt;/button&gt;')" style="background-color: #c22323">create button object<br>name: <input value="button1"><br>x: <input value="0" class="number"> y: <input value="50" class="number"><br>code:<br><textarea class="binput" oninput="this.style.height = &quot;&quot;;this.style.height = this.scrollHeight + &quot;px&quot;">call("function1")</textarea><br>text: <input value="OOOH USELESS BUTTON"> <span class="adddel" onclick="rmvCmd()">×</span></span></span></span><span class="loop block" onclick="highlightBlock()" style="background-color: rgb(85, 49, 245); top: 115px; left: 770px;">
+<span class="dragpoint" onclick="dragBlock()" style="">Drag</span>
+<span style="display: block; text-align: center">Run on <select><option>call</option><option>start</option></select></span>
+<hr>
+Script <input value="function1"><br>
+Speed: <input class="number" value="100"> frames<br>
+<span class="binput"></span></span>
